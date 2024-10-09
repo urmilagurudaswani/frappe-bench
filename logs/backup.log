@@ -1,0 +1,454 @@
+set -o pipefail; /usr/bin/mariadb-dump --user=_e18601883993cb00 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _e18601883993cb00 | /usr/bin/gzip >> ./site1/private/backups/20240912_120002-site1-database.sql.gz
+
+Backup Summary for site1 at 2024-09-12 12:00:03.010189
+Config  : /home/urmila/bench1/sites/site1/private/backups/20240912_120002-site1-site_config_backup.json 127.0B
+Database: /home/urmila/bench1/sites/site1/private/backups/20240912_120002-site1-database.sql.gz 216.3KiB
+Backup for Site site1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_e18601883993cb00 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _e18601883993cb00 | /usr/bin/gzip >> ./site1/private/backups/20240912_180002-site1-database.sql.gz
+
+Backup Summary for site1 at 2024-09-12 18:00:02.641839
+Config  : /home/urmila/bench1/sites/site1/private/backups/20240912_180002-site1-site_config_backup.json 127.0B
+Database: /home/urmila/bench1/sites/site1/private/backups/20240912_180002-site1-database.sql.gz 216.3KiB
+Backup for Site site1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_e18601883993cb00 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _e18601883993cb00 | /usr/bin/gzip >> ./site1/private/backups/20240913_120002-site1-database.sql.gz
+
+Backup Summary for site1 at 2024-09-13 12:00:03.346698
+Config  : /home/urmila/bench1/sites/site1/private/backups/20240913_120002-site1-site_config_backup.json 127.0B
+Database: /home/urmila/bench1/sites/site1/private/backups/20240913_120002-site1-database.sql.gz 216.3KiB
+Backup for Site site1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_e18601883993cb00 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _e18601883993cb00 | /usr/bin/gzip >> ./site1/private/backups/20240913_180002-site1-database.sql.gz
+
+Backup Summary for site1 at 2024-09-13 18:00:02.836894
+Config  : /home/urmila/bench1/sites/site1/private/backups/20240913_180002-site1-site_config_backup.json 127.0B
+Database: /home/urmila/bench1/sites/site1/private/backups/20240913_180002-site1-database.sql.gz 216.3KiB
+Backup for Site site1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_7a6520c682ac29f9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _7a6520c682ac29f9 | /usr/bin/gzip >> ./Airplane_mode/private/backups/20240914_120002-Airplane_mode-database.sql.gz
+
+Backup Summary for Airplane_mode at 2024-09-14 12:00:02.508095
+Config  : /home/urmila/bench1/sites/Airplane_mode/private/backups/20240914_120002-Airplane_mode-site_config_backup.json 149.0B
+Database: /home/urmila/bench1/sites/Airplane_mode/private/backups/20240914_120002-Airplane_mode-database.sql.gz 236.9KiB
+Backup for Site Airplane_mode has been successfully completed
+File ./site1/private/backups/20240913_180002-site1-site_config_backup.json is recent
+File ./site1/private/backups/20240913_120002-site1-site_config_backup.json is recent
+File ./site1/private/backups/20240912_180002-site1-database.sql.gz is older than 24 hours
+File ./site1/private/backups/20240913_120002-site1-database.sql.gz is recent
+File ./site1/private/backups/20240913_180002-site1-database.sql.gz is recent
+File ./site1/private/backups/20240912_180002-site1-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_e18601883993cb00 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _e18601883993cb00 | /usr/bin/gzip >> ./site1/private/backups/20240914_120002-site1-database.sql.gz
+
+Backup Summary for site1 at 2024-09-14 12:00:02.963902
+Config  : /home/urmila/bench1/sites/site1/private/backups/20240914_120002-site1-site_config_backup.json 127.0B
+Database: /home/urmila/bench1/sites/site1/private/backups/20240914_120002-site1-database.sql.gz 216.3KiB
+Backup for Site site1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_7a6520c682ac29f9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _7a6520c682ac29f9 | /usr/bin/gzip >> ./Airplane_mode/private/backups/20240914_180001-Airplane_mode-database.sql.gz
+
+Backup Summary for Airplane_mode at 2024-09-14 18:00:01.886954
+Config  : /home/urmila/bench1/sites/Airplane_mode/private/backups/20240914_180001-Airplane_mode-site_config_backup.json 149.0B
+Database: /home/urmila/bench1/sites/Airplane_mode/private/backups/20240914_180001-Airplane_mode-database.sql.gz 243.8KiB
+Backup for Site Airplane_mode has been successfully completed
+File ./site1/private/backups/20240913_180002-site1-site_config_backup.json is recent
+File ./site1/private/backups/20240913_120002-site1-site_config_backup.json is older than 24 hours
+File ./site1/private/backups/20240914_120002-site1-site_config_backup.json is recent
+File ./site1/private/backups/20240913_120002-site1-database.sql.gz is older than 24 hours
+File ./site1/private/backups/20240914_120002-site1-database.sql.gz is recent
+File ./site1/private/backups/20240913_180002-site1-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_e18601883993cb00 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _e18601883993cb00 | /usr/bin/gzip >> ./site1/private/backups/20240914_180001-site1-database.sql.gz
+
+Backup Summary for site1 at 2024-09-14 18:00:02.107175
+Config  : /home/urmila/bench1/sites/site1/private/backups/20240914_180001-site1-site_config_backup.json 127.0B
+Database: /home/urmila/bench1/sites/site1/private/backups/20240914_180001-site1-database.sql.gz 216.3KiB
+Backup for Site site1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_7a6520c682ac29f9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _7a6520c682ac29f9 | /usr/bin/gzip >> ./Airplane_mode/private/backups/20240916_120001-Airplane_mode-database.sql.gz
+
+Backup Summary for Airplane_mode at 2024-09-16 12:00:02.411568
+Config  : /home/urmila/bench1/sites/Airplane_mode/private/backups/20240916_120001-Airplane_mode-site_config_backup.json 149.0B
+Database: /home/urmila/bench1/sites/Airplane_mode/private/backups/20240916_120001-Airplane_mode-database.sql.gz 244.1KiB
+Backup for Site Airplane_mode has been successfully completed
+File ./site1/private/backups/20240913_180002-site1-site_config_backup.json is older than 24 hours
+File ./site1/private/backups/20240914_120002-site1-site_config_backup.json is older than 24 hours
+File ./site1/private/backups/20240914_180001-site1-site_config_backup.json is older than 24 hours
+File ./site1/private/backups/20240914_180001-site1-database.sql.gz is older than 24 hours
+File ./site1/private/backups/20240914_120002-site1-database.sql.gz is older than 24 hours
+File ./site1/private/backups/20240913_180002-site1-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_e18601883993cb00 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _e18601883993cb00 | /usr/bin/gzip >> ./site1/private/backups/20240916_120002-site1-database.sql.gz
+
+Backup Summary for site1 at 2024-09-16 12:00:02.972376
+Config  : /home/urmila/bench1/sites/site1/private/backups/20240916_120002-site1-site_config_backup.json 127.0B
+Database: /home/urmila/bench1/sites/site1/private/backups/20240916_120002-site1-database.sql.gz 216.3KiB
+Backup for Site site1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_7a6520c682ac29f9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _7a6520c682ac29f9 | /usr/bin/gzip >> ./Airplane_mode/private/backups/20240917_120002-Airplane_mode-database.sql.gz
+
+Backup Summary for Airplane_mode at 2024-09-17 12:00:02.922403
+Config  : /home/urmila/bench1/sites/Airplane_mode/private/backups/20240917_120002-Airplane_mode-site_config_backup.json 149.0B
+Database: /home/urmila/bench1/sites/Airplane_mode/private/backups/20240917_120002-Airplane_mode-database.sql.gz 244.1KiB
+Backup for Site Airplane_mode has been successfully completed
+File ./site1/private/backups/20240916_120002-site1-site_config_backup.json is recent
+File ./site1/private/backups/20240916_120002-site1-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_e18601883993cb00 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _e18601883993cb00 | /usr/bin/gzip >> ./site1/private/backups/20240917_120002-site1-database.sql.gz
+
+Backup Summary for site1 at 2024-09-17 12:00:03.233568
+Config  : /home/urmila/bench1/sites/site1/private/backups/20240917_120002-site1-site_config_backup.json 127.0B
+Database: /home/urmila/bench1/sites/site1/private/backups/20240917_120002-site1-database.sql.gz 216.3KiB
+Backup for Site site1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_7a6520c682ac29f9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _7a6520c682ac29f9 | /usr/bin/gzip >> ./Airplane_mode/private/backups/20240918_120003-Airplane_mode-database.sql.gz
+
+Backup Summary for Airplane_mode at 2024-09-18 12:00:03.466374
+Config  : /home/urmila/bench1/sites/Airplane_mode/private/backups/20240918_120003-Airplane_mode-site_config_backup.json 149.0B
+Database: /home/urmila/bench1/sites/Airplane_mode/private/backups/20240918_120003-Airplane_mode-database.sql.gz 244.1KiB
+Backup for Site Airplane_mode has been successfully completed
+File ./site1/private/backups/20240917_120002-site1-site_config_backup.json is older than 24 hours
+File ./site1/private/backups/20240916_120002-site1-site_config_backup.json is older than 24 hours
+File ./site1/private/backups/20240917_120002-site1-database.sql.gz is older than 24 hours
+File ./site1/private/backups/20240916_120002-site1-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_e18601883993cb00 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _e18601883993cb00 | /usr/bin/gzip >> ./site1/private/backups/20240918_120003-site1-database.sql.gz
+
+Backup Summary for site1 at 2024-09-18 12:00:03.737925
+Config  : /home/urmila/bench1/sites/site1/private/backups/20240918_120003-site1-site_config_backup.json 127.0B
+Database: /home/urmila/bench1/sites/site1/private/backups/20240918_120003-site1-database.sql.gz 216.3KiB
+Backup for Site site1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_7a6520c682ac29f9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _7a6520c682ac29f9 | /usr/bin/gzip >> ./Airplane_mode/private/backups/20240918_180001-Airplane_mode-database.sql.gz
+
+Backup Summary for Airplane_mode at 2024-09-18 18:00:02.059685
+Config  : /home/urmila/bench1/sites/Airplane_mode/private/backups/20240918_180001-Airplane_mode-site_config_backup.json 149.0B
+Database: /home/urmila/bench1/sites/Airplane_mode/private/backups/20240918_180001-Airplane_mode-database.sql.gz 245.9KiB
+Backup for Site Airplane_mode has been successfully completed
+File ./site1/private/backups/20240918_120003-site1-database.sql.gz is recent
+File ./site1/private/backups/20240918_120003-site1-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_e18601883993cb00 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _e18601883993cb00 | /usr/bin/gzip >> ./site1/private/backups/20240918_180002-site1-database.sql.gz
+
+Backup Summary for site1 at 2024-09-18 18:00:02.425647
+Config  : /home/urmila/bench1/sites/site1/private/backups/20240918_180002-site1-site_config_backup.json 127.0B
+Database: /home/urmila/bench1/sites/site1/private/backups/20240918_180002-site1-database.sql.gz 216.3KiB
+Backup for Site site1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_7a6520c682ac29f9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _7a6520c682ac29f9 | /usr/bin/gzip >> ./Airplane_mode/private/backups/20240919_120002-Airplane_mode-database.sql.gz
+
+Backup Summary for Airplane_mode at 2024-09-19 12:00:02.742351
+Config  : /home/urmila/bench1/sites/Airplane_mode/private/backups/20240919_120002-Airplane_mode-site_config_backup.json 149.0B
+Database: /home/urmila/bench1/sites/Airplane_mode/private/backups/20240919_120002-Airplane_mode-database.sql.gz 248.3KiB
+Backup for Site Airplane_mode has been successfully completed
+File ./site1/private/backups/20240918_180002-site1-database.sql.gz is recent
+File ./site1/private/backups/20240918_120003-site1-database.sql.gz is recent
+File ./site1/private/backups/20240918_180002-site1-site_config_backup.json is recent
+File ./site1/private/backups/20240918_120003-site1-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_e18601883993cb00 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _e18601883993cb00 | /usr/bin/gzip >> ./site1/private/backups/20240919_120002-site1-database.sql.gz
+
+Backup Summary for site1 at 2024-09-19 12:00:03.112407
+Config  : /home/urmila/bench1/sites/site1/private/backups/20240919_120002-site1-site_config_backup.json 127.0B
+Database: /home/urmila/bench1/sites/site1/private/backups/20240919_120002-site1-database.sql.gz 216.3KiB
+Backup for Site site1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_7a6520c682ac29f9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _7a6520c682ac29f9 | /usr/bin/gzip >> ./Airplane_mode/private/backups/20240920_120002-Airplane_mode-database.sql.gz
+
+Backup Summary for Airplane_mode at 2024-09-20 12:00:02.400807
+Config  : /home/urmila/bench1/sites/Airplane_mode/private/backups/20240920_120002-Airplane_mode-site_config_backup.json 149.0B
+Database: /home/urmila/bench1/sites/Airplane_mode/private/backups/20240920_120002-Airplane_mode-database.sql.gz 248.3KiB
+Backup for Site Airplane_mode has been successfully completed
+File ./site1/private/backups/20240918_180002-site1-database.sql.gz is older than 24 hours
+File ./site1/private/backups/20240918_120003-site1-database.sql.gz is older than 24 hours
+File ./site1/private/backups/20240918_180002-site1-site_config_backup.json is older than 24 hours
+File ./site1/private/backups/20240919_120002-site1-database.sql.gz is recent
+File ./site1/private/backups/20240919_120002-site1-site_config_backup.json is recent
+File ./site1/private/backups/20240918_120003-site1-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_e18601883993cb00 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _e18601883993cb00 | /usr/bin/gzip >> ./site1/private/backups/20240920_120002-site1-database.sql.gz
+
+Backup Summary for site1 at 2024-09-20 12:00:02.786229
+Config  : /home/urmila/bench1/sites/site1/private/backups/20240920_120002-site1-site_config_backup.json 127.0B
+Database: /home/urmila/bench1/sites/site1/private/backups/20240920_120002-site1-database.sql.gz 216.3KiB
+Backup for Site site1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_7a6520c682ac29f9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _7a6520c682ac29f9 | /usr/bin/gzip >> ./Airplane_mode/private/backups/20240922_000002-Airplane_mode-database.sql.gz
+
+Backup Summary for Airplane_mode at 2024-09-22 00:00:02.609038
+Config  : /home/urmila/bench1/sites/Airplane_mode/private/backups/20240922_000002-Airplane_mode-site_config_backup.json 149.0B
+Database: /home/urmila/bench1/sites/Airplane_mode/private/backups/20240922_000002-Airplane_mode-database.sql.gz 248.3KiB
+Backup for Site Airplane_mode has been successfully completed
+File ./site1/private/backups/20240919_120002-site1-database.sql.gz is older than 24 hours
+File ./site1/private/backups/20240919_120002-site1-site_config_backup.json is older than 24 hours
+File ./site1/private/backups/20240920_120002-site1-database.sql.gz is older than 24 hours
+File ./site1/private/backups/20240920_120002-site1-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_e18601883993cb00 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _e18601883993cb00 | /usr/bin/gzip >> ./site1/private/backups/20240922_000002-site1-database.sql.gz
+
+Backup Summary for site1 at 2024-09-22 00:00:03.062814
+Config  : /home/urmila/bench1/sites/site1/private/backups/20240922_000002-site1-site_config_backup.json 127.0B
+Database: /home/urmila/bench1/sites/site1/private/backups/20240922_000002-site1-database.sql.gz 216.3KiB
+Backup for Site site1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_7a6520c682ac29f9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _7a6520c682ac29f9 | /usr/bin/gzip >> ./Airplane_mode/private/backups/20240923_120002-Airplane_mode-database.sql.gz
+
+Backup Summary for Airplane_mode at 2024-09-23 12:00:02.624183
+Config  : /home/urmila/bench1/sites/Airplane_mode/private/backups/20240923_120002-Airplane_mode-site_config_backup.json 149.0B
+Database: /home/urmila/bench1/sites/Airplane_mode/private/backups/20240923_120002-Airplane_mode-database.sql.gz 248.3KiB
+Backup for Site Airplane_mode has been successfully completed
+File ./site1/private/backups/20240922_000002-site1-database.sql.gz is older than 24 hours
+File ./site1/private/backups/20240922_000002-site1-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_e18601883993cb00 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _e18601883993cb00 | /usr/bin/gzip >> ./site1/private/backups/20240923_120002-site1-database.sql.gz
+
+Backup Summary for site1 at 2024-09-23 12:00:03.058143
+Config  : /home/urmila/bench1/sites/site1/private/backups/20240923_120002-site1-site_config_backup.json 127.0B
+Database: /home/urmila/bench1/sites/site1/private/backups/20240923_120002-site1-database.sql.gz 216.3KiB
+Backup for Site site1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_7a6520c682ac29f9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _7a6520c682ac29f9 | /usr/bin/gzip >> ./Airplane_mode/private/backups/20240924_120002-Airplane_mode-database.sql.gz
+
+Backup Summary for Airplane_mode at 2024-09-24 12:00:03.202292
+Config  : /home/urmila/bench1/sites/Airplane_mode/private/backups/20240924_120002-Airplane_mode-site_config_backup.json 149.0B
+Database: /home/urmila/bench1/sites/Airplane_mode/private/backups/20240924_120002-Airplane_mode-database.sql.gz 248.3KiB
+Backup for Site Airplane_mode has been successfully completed
+File ./site1/private/backups/20240923_120002-site1-database.sql.gz is older than 24 hours
+File ./site1/private/backups/20240923_120002-site1-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_e18601883993cb00 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _e18601883993cb00 | /usr/bin/gzip >> ./site1/private/backups/20240924_120003-site1-database.sql.gz
+
+Backup Summary for site1 at 2024-09-24 12:00:03.865297
+Config  : /home/urmila/bench1/sites/site1/private/backups/20240924_120003-site1-site_config_backup.json 127.0B
+Database: /home/urmila/bench1/sites/site1/private/backups/20240924_120003-site1-database.sql.gz 216.3KiB
+Backup for Site site1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_7a6520c682ac29f9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _7a6520c682ac29f9 | /usr/bin/gzip >> ./Airplane_mode/private/backups/20240925_000002-Airplane_mode-database.sql.gz
+
+Backup Summary for Airplane_mode at 2024-09-25 00:00:02.579813
+Config  : /home/urmila/bench1/sites/Airplane_mode/private/backups/20240925_000002-Airplane_mode-site_config_backup.json 149.0B
+Database: /home/urmila/bench1/sites/Airplane_mode/private/backups/20240925_000002-Airplane_mode-database.sql.gz 248.3KiB
+Backup for Site Airplane_mode has been successfully completed
+File ./site1/private/backups/20240924_120003-site1-site_config_backup.json is recent
+File ./site1/private/backups/20240924_120003-site1-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_e18601883993cb00 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _e18601883993cb00 | /usr/bin/gzip >> ./site1/private/backups/20240925_000002-site1-database.sql.gz
+
+Backup Summary for site1 at 2024-09-25 00:00:02.988165
+Config  : /home/urmila/bench1/sites/site1/private/backups/20240925_000002-site1-site_config_backup.json 127.0B
+Database: /home/urmila/bench1/sites/site1/private/backups/20240925_000002-site1-database.sql.gz 216.3KiB
+Backup for Site site1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_7a6520c682ac29f9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _7a6520c682ac29f9 | /usr/bin/gzip >> ./Airplane_mode/private/backups/20240925_120002-Airplane_mode-database.sql.gz
+
+Backup Summary for Airplane_mode at 2024-09-25 12:00:02.610967
+Config  : /home/urmila/bench1/sites/Airplane_mode/private/backups/20240925_120002-Airplane_mode-site_config_backup.json 149.0B
+Database: /home/urmila/bench1/sites/Airplane_mode/private/backups/20240925_120002-Airplane_mode-database.sql.gz 248.3KiB
+Backup for Site Airplane_mode has been successfully completed
+File ./site1/private/backups/20240925_000002-site1-database.sql.gz is recent
+File ./site1/private/backups/20240925_000002-site1-site_config_backup.json is recent
+File ./site1/private/backups/20240924_120003-site1-site_config_backup.json is recent
+File ./site1/private/backups/20240924_120003-site1-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_e18601883993cb00 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _e18601883993cb00 | /usr/bin/gzip >> ./site1/private/backups/20240925_120002-site1-database.sql.gz
+
+Backup Summary for site1 at 2024-09-25 12:00:03.026625
+Config  : /home/urmila/bench1/sites/site1/private/backups/20240925_120002-site1-site_config_backup.json 127.0B
+Database: /home/urmila/bench1/sites/site1/private/backups/20240925_120002-site1-database.sql.gz 216.3KiB
+Backup for Site site1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_7a6520c682ac29f9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _7a6520c682ac29f9 | /usr/bin/gzip >> ./Airplane_mode/private/backups/20240926_120001-Airplane_mode-database.sql.gz
+
+Backup Summary for Airplane_mode at 2024-09-26 12:00:02.152518
+Config  : /home/urmila/bench1/sites/Airplane_mode/private/backups/20240926_120001-Airplane_mode-site_config_backup.json 149.0B
+Database: /home/urmila/bench1/sites/Airplane_mode/private/backups/20240926_120001-Airplane_mode-database.sql.gz 295.0KiB
+Backup for Site Airplane_mode has been successfully completed
+File ./site1/private/backups/20240925_120002-site1-site_config_backup.json is recent
+File ./site1/private/backups/20240925_000002-site1-database.sql.gz is older than 24 hours
+File ./site1/private/backups/20240925_000002-site1-site_config_backup.json is older than 24 hours
+File ./site1/private/backups/20240924_120003-site1-site_config_backup.json is older than 24 hours
+File ./site1/private/backups/20240924_120003-site1-database.sql.gz is older than 24 hours
+File ./site1/private/backups/20240925_120002-site1-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_e18601883993cb00 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _e18601883993cb00 | /usr/bin/gzip >> ./site1/private/backups/20240926_120002-site1-database.sql.gz
+
+Backup Summary for site1 at 2024-09-26 12:00:02.594023
+Config  : /home/urmila/bench1/sites/site1/private/backups/20240926_120002-site1-site_config_backup.json 127.0B
+Database: /home/urmila/bench1/sites/site1/private/backups/20240926_120002-site1-database.sql.gz 216.3KiB
+Backup for Site site1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_7a6520c682ac29f9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _7a6520c682ac29f9 | /usr/bin/gzip >> ./Airplane_mode/private/backups/20240927_120001-Airplane_mode-database.sql.gz
+
+Backup Summary for Airplane_mode at 2024-09-27 12:00:01.726069
+Config  : /home/urmila/bench1/sites/Airplane_mode/private/backups/20240927_120001-Airplane_mode-site_config_backup.json 149.0B
+Database: /home/urmila/bench1/sites/Airplane_mode/private/backups/20240927_120001-Airplane_mode-database.sql.gz 314.0KiB
+Backup for Site Airplane_mode has been successfully completed
+File ./site1/private/backups/20240925_120002-site1-site_config_backup.json is older than 24 hours
+File ./site1/private/backups/20240926_120002-site1-site_config_backup.json is recent
+File ./site1/private/backups/20240926_120002-site1-database.sql.gz is recent
+File ./site1/private/backups/20240925_120002-site1-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_e18601883993cb00 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _e18601883993cb00 | /usr/bin/gzip >> ./site1/private/backups/20240927_120001-site1-database.sql.gz
+
+Backup Summary for site1 at 2024-09-27 12:00:02.120858
+Config  : /home/urmila/bench1/sites/site1/private/backups/20240927_120001-site1-site_config_backup.json 127.0B
+Database: /home/urmila/bench1/sites/site1/private/backups/20240927_120001-site1-database.sql.gz 216.3KiB
+Backup for Site site1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_7a6520c682ac29f9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _7a6520c682ac29f9 | /usr/bin/gzip >> ./Airplane_mode/private/backups/20240930_180003-Airplane_mode-database.sql.gz
+
+Backup Summary for Airplane_mode at 2024-09-30 18:00:04.955315
+Config  : /home/urmila/bench1/sites/Airplane_mode/private/backups/20240930_180003-Airplane_mode-site_config_backup.json 149.0B
+Database: /home/urmila/bench1/sites/Airplane_mode/private/backups/20240930_180003-Airplane_mode-database.sql.gz 327.4KiB
+Backup for Site Airplane_mode has been successfully completed
+File ./site1/private/backups/20240926_120002-site1-site_config_backup.json is older than 24 hours
+File ./site1/private/backups/20240926_120002-site1-database.sql.gz is older than 24 hours
+File ./site1/private/backups/20240927_120001-site1-site_config_backup.json is older than 24 hours
+File ./site1/private/backups/20240927_120001-site1-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_e18601883993cb00 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _e18601883993cb00 | /usr/bin/gzip >> ./site1/private/backups/20240930_180005-site1-database.sql.gz
+
+Backup Summary for site1 at 2024-09-30 18:00:06.444840
+Config  : /home/urmila/bench1/sites/site1/private/backups/20240930_180005-site1-site_config_backup.json 127.0B
+Database: /home/urmila/bench1/sites/site1/private/backups/20240930_180005-site1-database.sql.gz 216.3KiB
+Backup for Site site1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_7a6520c682ac29f9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _7a6520c682ac29f9 | /usr/bin/gzip >> ./Airplane_mode/private/backups/20241001_120002-Airplane_mode-database.sql.gz
+
+Backup Summary for Airplane_mode at 2024-10-01 12:00:03.013627
+Config  : /home/urmila/bench1/sites/Airplane_mode/private/backups/20241001_120002-Airplane_mode-site_config_backup.json 149.0B
+Database: /home/urmila/bench1/sites/Airplane_mode/private/backups/20241001_120002-Airplane_mode-database.sql.gz 327.4KiB
+Backup for Site Airplane_mode has been successfully completed
+File ./site1/private/backups/20240930_180005-site1-database.sql.gz is recent
+File ./site1/private/backups/20240930_180005-site1-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_e18601883993cb00 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _e18601883993cb00 | /usr/bin/gzip >> ./site1/private/backups/20241001_120003-site1-database.sql.gz
+
+Backup Summary for site1 at 2024-10-01 12:00:03.493495
+Config  : /home/urmila/bench1/sites/site1/private/backups/20241001_120003-site1-site_config_backup.json 127.0B
+Database: /home/urmila/bench1/sites/site1/private/backups/20241001_120003-site1-database.sql.gz 216.3KiB
+Backup for Site site1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_7a6520c682ac29f9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _7a6520c682ac29f9 | /usr/bin/gzip >> ./Airplane_mode/private/backups/20241002_000007-Airplane_mode-database.sql.gz
+
+Backup Summary for Airplane_mode at 2024-10-02 00:00:07.381644
+Config  : /home/urmila/bench1/sites/Airplane_mode/private/backups/20241002_000007-Airplane_mode-site_config_backup.json 149.0B
+Database: /home/urmila/bench1/sites/Airplane_mode/private/backups/20241002_000007-Airplane_mode-database.sql.gz 327.4KiB
+Backup for Site Airplane_mode has been successfully completed
+File ./site1/private/backups/20240930_180005-site1-database.sql.gz is older than 24 hours
+File ./site1/private/backups/20240930_180005-site1-site_config_backup.json is older than 24 hours
+File ./site1/private/backups/20241001_120003-site1-database.sql.gz is recent
+File ./site1/private/backups/20241001_120003-site1-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_e18601883993cb00 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _e18601883993cb00 | /usr/bin/gzip >> ./site1/private/backups/20241002_000007-site1-database.sql.gz
+
+Backup Summary for site1 at 2024-10-02 00:00:07.668830
+Config  : /home/urmila/bench1/sites/site1/private/backups/20241002_000007-site1-site_config_backup.json 127.0B
+Database: /home/urmila/bench1/sites/site1/private/backups/20241002_000007-site1-database.sql.gz 216.3KiB
+Backup for Site site1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_7a6520c682ac29f9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _7a6520c682ac29f9 | /usr/bin/gzip >> ./Airplane_mode/private/backups/20241002_120002-Airplane_mode-database.sql.gz
+
+Backup Summary for Airplane_mode at 2024-10-02 12:00:02.819296
+Config  : /home/urmila/bench1/sites/Airplane_mode/private/backups/20241002_120002-Airplane_mode-site_config_backup.json 149.0B
+Database: /home/urmila/bench1/sites/Airplane_mode/private/backups/20241002_120002-Airplane_mode-database.sql.gz 327.4KiB
+Backup for Site Airplane_mode has been successfully completed
+File ./site1/private/backups/20241002_000007-site1-site_config_backup.json is recent
+File ./site1/private/backups/20241002_000007-site1-database.sql.gz is recent
+File ./site1/private/backups/20241001_120003-site1-database.sql.gz is recent
+File ./site1/private/backups/20241001_120003-site1-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_e18601883993cb00 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _e18601883993cb00 | /usr/bin/gzip >> ./site1/private/backups/20241002_120002-site1-database.sql.gz
+
+Backup Summary for site1 at 2024-10-02 12:00:03.236402
+Config  : /home/urmila/bench1/sites/site1/private/backups/20241002_120002-site1-site_config_backup.json 127.0B
+Database: /home/urmila/bench1/sites/site1/private/backups/20241002_120002-site1-database.sql.gz 216.3KiB
+Backup for Site site1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_7a6520c682ac29f9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _7a6520c682ac29f9 | /usr/bin/gzip >> ./Airplane_mode/private/backups/20241003_120002-Airplane_mode-database.sql.gz
+
+Backup Summary for Airplane_mode at 2024-10-03 12:00:02.823350
+Config  : /home/urmila/bench1/sites/Airplane_mode/private/backups/20241003_120002-Airplane_mode-site_config_backup.json 149.0B
+Database: /home/urmila/bench1/sites/Airplane_mode/private/backups/20241003_120002-Airplane_mode-database.sql.gz 327.4KiB
+Backup for Site Airplane_mode has been successfully completed
+File ./site1/private/backups/20241002_120002-site1-site_config_backup.json is recent
+File ./site1/private/backups/20241002_000007-site1-site_config_backup.json is older than 24 hours
+File ./site1/private/backups/20241002_120002-site1-database.sql.gz is recent
+File ./site1/private/backups/20241002_000007-site1-database.sql.gz is older than 24 hours
+File ./site1/private/backups/20241001_120003-site1-database.sql.gz is older than 24 hours
+File ./site1/private/backups/20241001_120003-site1-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_e18601883993cb00 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _e18601883993cb00 | /usr/bin/gzip >> ./site1/private/backups/20241003_120002-site1-database.sql.gz
+
+Backup Summary for site1 at 2024-10-03 12:00:03.384237
+Config  : /home/urmila/bench1/sites/site1/private/backups/20241003_120002-site1-site_config_backup.json 127.0B
+Database: /home/urmila/bench1/sites/site1/private/backups/20241003_120002-site1-database.sql.gz 216.3KiB
+Backup for Site site1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_7a6520c682ac29f9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _7a6520c682ac29f9 | /usr/bin/gzip >> ./Airplane_mode/private/backups/20241005_120001-Airplane_mode-database.sql.gz
+
+Backup Summary for Airplane_mode at 2024-10-05 12:00:02.203712
+Config  : /home/urmila/bench1/sites/Airplane_mode/private/backups/20241005_120001-Airplane_mode-site_config_backup.json 149.0B
+Database: /home/urmila/bench1/sites/Airplane_mode/private/backups/20241005_120001-Airplane_mode-database.sql.gz 327.4KiB
+Backup for Site Airplane_mode has been successfully completed
+File ./site1/private/backups/20241003_120002-site1-site_config_backup.json is older than 24 hours
+File ./site1/private/backups/20241003_120002-site1-database.sql.gz is older than 24 hours
+File ./site1/private/backups/20241002_120002-site1-site_config_backup.json is older than 24 hours
+File ./site1/private/backups/20241002_120002-site1-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_e18601883993cb00 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _e18601883993cb00 | /usr/bin/gzip >> ./site1/private/backups/20241005_120002-site1-database.sql.gz
+
+Backup Summary for site1 at 2024-10-05 12:00:02.722494
+Config  : /home/urmila/bench1/sites/site1/private/backups/20241005_120002-site1-site_config_backup.json 127.0B
+Database: /home/urmila/bench1/sites/site1/private/backups/20241005_120002-site1-database.sql.gz 216.3KiB
+Backup for Site site1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_7a6520c682ac29f9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _7a6520c682ac29f9 | /usr/bin/gzip >> ./Airplane_mode/private/backups/20241006_000001-Airplane_mode-database.sql.gz
+
+Backup Summary for Airplane_mode at 2024-10-06 00:00:02.283481
+Config  : /home/urmila/bench1/sites/Airplane_mode/private/backups/20241006_000001-Airplane_mode-site_config_backup.json 149.0B
+Database: /home/urmila/bench1/sites/Airplane_mode/private/backups/20241006_000001-Airplane_mode-database.sql.gz 327.4KiB
+Backup for Site Airplane_mode has been successfully completed
+File ./site1/private/backups/20241005_120002-site1-database.sql.gz is recent
+File ./site1/private/backups/20241005_120002-site1-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_e18601883993cb00 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _e18601883993cb00 | /usr/bin/gzip >> ./site1/private/backups/20241006_000002-site1-database.sql.gz
+
+Backup Summary for site1 at 2024-10-06 00:00:02.707111
+Config  : /home/urmila/bench1/sites/site1/private/backups/20241006_000002-site1-site_config_backup.json 127.0B
+Database: /home/urmila/bench1/sites/site1/private/backups/20241006_000002-site1-database.sql.gz 216.3KiB
+Backup for Site site1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_7a6520c682ac29f9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _7a6520c682ac29f9 | /usr/bin/gzip >> ./Airplane_mode/private/backups/20241006_180002-Airplane_mode-database.sql.gz
+
+Backup Summary for Airplane_mode at 2024-10-06 18:00:02.661503
+Config  : /home/urmila/bench1/sites/Airplane_mode/private/backups/20241006_180002-Airplane_mode-site_config_backup.json 149.0B
+Database: /home/urmila/bench1/sites/Airplane_mode/private/backups/20241006_180002-Airplane_mode-database.sql.gz 327.4KiB
+Backup for Site Airplane_mode has been successfully completed
+File ./site1/private/backups/20241005_120002-site1-database.sql.gz is older than 24 hours
+File ./site1/private/backups/20241006_000002-site1-database.sql.gz is recent
+File ./site1/private/backups/20241005_120002-site1-site_config_backup.json is older than 24 hours
+File ./site1/private/backups/20241006_000002-site1-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_e18601883993cb00 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _e18601883993cb00 | /usr/bin/gzip >> ./site1/private/backups/20241006_180002-site1-database.sql.gz
+
+Backup Summary for site1 at 2024-10-06 18:00:03.203328
+Config  : /home/urmila/bench1/sites/site1/private/backups/20241006_180002-site1-site_config_backup.json 127.0B
+Database: /home/urmila/bench1/sites/site1/private/backups/20241006_180002-site1-database.sql.gz 216.3KiB
+Backup for Site site1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_7a6520c682ac29f9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _7a6520c682ac29f9 | /usr/bin/gzip >> ./Airplane_mode/private/backups/20241008_120001-Airplane_mode-database.sql.gz
+
+Backup Summary for Airplane_mode at 2024-10-08 12:00:02.188921
+Config  : /home/urmila/bench1/sites/Airplane_mode/private/backups/20241008_120001-Airplane_mode-site_config_backup.json 149.0B
+Database: /home/urmila/bench1/sites/Airplane_mode/private/backups/20241008_120001-Airplane_mode-database.sql.gz 317.5KiB
+Backup for Site Airplane_mode has been successfully completed
+File ./site1/private/backups/20241006_180002-site1-site_config_backup.json is older than 24 hours
+File ./site1/private/backups/20241006_000002-site1-database.sql.gz is older than 24 hours
+File ./site1/private/backups/20241006_180002-site1-database.sql.gz is older than 24 hours
+File ./site1/private/backups/20241006_000002-site1-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_e18601883993cb00 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _e18601883993cb00 | /usr/bin/gzip >> ./site1/private/backups/20241008_120002-site1-database.sql.gz
+
+Backup Summary for site1 at 2024-10-08 12:00:02.575857
+Config  : /home/urmila/bench1/sites/site1/private/backups/20241008_120002-site1-site_config_backup.json 127.0B
+Database: /home/urmila/bench1/sites/site1/private/backups/20241008_120002-site1-database.sql.gz 216.3KiB
+Backup for Site site1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_7a6520c682ac29f9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _7a6520c682ac29f9 | /usr/bin/gzip >> ./Airplane_mode/private/backups/20241008_180001-Airplane_mode-database.sql.gz
+
+Backup Summary for Airplane_mode at 2024-10-08 18:00:02.187834
+Config  : /home/urmila/bench1/sites/Airplane_mode/private/backups/20241008_180001-Airplane_mode-site_config_backup.json 149.0B
+Database: /home/urmila/bench1/sites/Airplane_mode/private/backups/20241008_180001-Airplane_mode-database.sql.gz 333.6KiB
+Backup for Site Airplane_mode has been successfully completed
+File ./site1/private/backups/20241008_120002-site1-site_config_backup.json is recent
+File ./site1/private/backups/20241008_120002-site1-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_e18601883993cb00 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _e18601883993cb00 | /usr/bin/gzip >> ./site1/private/backups/20241008_180002-site1-database.sql.gz
+
+Backup Summary for site1 at 2024-10-08 18:00:02.491799
+Config  : /home/urmila/bench1/sites/site1/private/backups/20241008_180002-site1-site_config_backup.json 127.0B
+Database: /home/urmila/bench1/sites/site1/private/backups/20241008_180002-site1-database.sql.gz 216.3KiB
+Backup for Site site1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_7a6520c682ac29f9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _7a6520c682ac29f9 | /usr/bin/gzip >> ./Airplane_mode/private/backups/20241009_000001-Airplane_mode-database.sql.gz
+
+Backup Summary for Airplane_mode at 2024-10-09 00:00:02.205471
+Config  : /home/urmila/bench1/sites/Airplane_mode/private/backups/20241009_000001-Airplane_mode-site_config_backup.json 149.0B
+Database: /home/urmila/bench1/sites/Airplane_mode/private/backups/20241009_000001-Airplane_mode-database.sql.gz 354.7KiB
+Backup for Site Airplane_mode has been successfully completed
+File ./site1/private/backups/20241008_120002-site1-site_config_backup.json is recent
+File ./site1/private/backups/20241008_180002-site1-site_config_backup.json is recent
+File ./site1/private/backups/20241008_120002-site1-database.sql.gz is recent
+File ./site1/private/backups/20241008_180002-site1-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_e18601883993cb00 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _e18601883993cb00 | /usr/bin/gzip >> ./site1/private/backups/20241009_000002-site1-database.sql.gz
+
+Backup Summary for site1 at 2024-10-09 00:00:02.577272
+Config  : /home/urmila/bench1/sites/site1/private/backups/20241009_000002-site1-site_config_backup.json 127.0B
+Database: /home/urmila/bench1/sites/site1/private/backups/20241009_000002-site1-database.sql.gz 216.3KiB
+Backup for Site site1 has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_7a6520c682ac29f9 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _7a6520c682ac29f9 | /usr/bin/gzip >> ./Airplane_mode/private/backups/20241009_120001-Airplane_mode-database.sql.gz
+
+Backup Summary for Airplane_mode at 2024-10-09 12:00:01.804709
+Config  : /home/urmila/bench1/sites/Airplane_mode/private/backups/20241009_120001-Airplane_mode-site_config_backup.json 149.0B
+Database: /home/urmila/bench1/sites/Airplane_mode/private/backups/20241009_120001-Airplane_mode-database.sql.gz 363.5KiB
+Backup for Site Airplane_mode has been successfully completed
+File ./site1/private/backups/20241008_120002-site1-site_config_backup.json is recent
+File ./site1/private/backups/20241008_180002-site1-site_config_backup.json is recent
+File ./site1/private/backups/20241008_120002-site1-database.sql.gz is recent
+File ./site1/private/backups/20241009_000002-site1-site_config_backup.json is recent
+File ./site1/private/backups/20241009_000002-site1-database.sql.gz is recent
+File ./site1/private/backups/20241008_180002-site1-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_e18601883993cb00 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _e18601883993cb00 | /usr/bin/gzip >> ./site1/private/backups/20241009_120001-site1-database.sql.gz
+
+Backup Summary for site1 at 2024-10-09 12:00:02.136092
+Config  : /home/urmila/bench1/sites/site1/private/backups/20241009_120001-site1-site_config_backup.json 127.0B
+Database: /home/urmila/bench1/sites/site1/private/backups/20241009_120001-site1-database.sql.gz 216.4KiB
+Backup for Site site1 has been successfully completed
